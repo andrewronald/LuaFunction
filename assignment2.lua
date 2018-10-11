@@ -12,7 +12,6 @@ function is_prime(num)
 	end
 	return true
 end
-is_prime(991)
 function primeNumEndsIn3(n)
 	for i = 1, n do
 		if(ends_in_3(i) == true and is_prime(i) == true) then
@@ -20,4 +19,3 @@ function primeNumEndsIn3(n)
 		end
 	end
 end
-primeNumEndsIn3(1000)
